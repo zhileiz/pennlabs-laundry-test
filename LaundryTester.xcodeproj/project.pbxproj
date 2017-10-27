@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A17183F90A807B18A05DCF0A /* Pods_LaundryTester.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45DD682F11A9F8662BC69842 /* Pods_LaundryTester.framework */; };
 		CFA601691F9FA25500FE2675 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA601681F9FA25500FE2675 /* AppDelegate.swift */; };
 		CFA6016B1F9FA25500FE2675 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA6016A1F9FA25500FE2675 /* ViewController.swift */; };
 		CFA6016E1F9FA25500FE2675 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFA6016C1F9FA25500FE2675 /* Main.storyboard */; };
 		CFA601701F9FA25500FE2675 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFA6016F1F9FA25500FE2675 /* Assets.xcassets */; };
 		CFA601731F9FA25500FE2675 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFA601711F9FA25500FE2675 /* LaunchScreen.storyboard */; };
+		CFA6017E1F9FA6CB00FE2675 /* HallsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA6017D1F9FA6CB00FE2675 /* HallsViewController.swift */; };
+		CFA601801F9FA70600FE2675 /* InfoViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA6017F1F9FA70600FE2675 /* InfoViewCell.swift */; };
+		CFA601821F9FA72700FE2675 /* HallViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA601811F9FA72700FE2675 /* HallViewCell.swift */; };
+		CFA601841F9FA76200FE2675 /* LaundryHall.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA601831F9FA76200FE2675 /* LaundryHall.swift */; };
+		CFA601861F9FBDD700FE2675 /* LaundryAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA601851F9FBDD700FE2675 /* LaundryAPIService.swift */; };
+		CFABC0AC1FA299270057EAD1 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFABC0AB1FA299270057EAD1 /* Networking.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		014CC44F44CAD6E34AFC93BD /* Pods-LaundryTester.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LaundryTester.release.xcconfig"; path = "Pods/Target Support Files/Pods-LaundryTester/Pods-LaundryTester.release.xcconfig"; sourceTree = "<group>"; };
+		45DD682F11A9F8662BC69842 /* Pods_LaundryTester.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LaundryTester.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFA601651F9FA25500FE2675 /* LaundryTester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaundryTester.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFA601681F9FA25500FE2675 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CFA6016A1F9FA25500FE2675 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +31,13 @@
 		CFA6016F1F9FA25500FE2675 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CFA601721F9FA25500FE2675 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CFA601741F9FA25500FE2675 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFA6017D1F9FA6CB00FE2675 /* HallsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HallsViewController.swift; sourceTree = "<group>"; };
+		CFA6017F1F9FA70600FE2675 /* InfoViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewCell.swift; sourceTree = "<group>"; };
+		CFA601811F9FA72700FE2675 /* HallViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HallViewCell.swift; sourceTree = "<group>"; };
+		CFA601831F9FA76200FE2675 /* LaundryHall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaundryHall.swift; sourceTree = "<group>"; };
+		CFA601851F9FBDD700FE2675 /* LaundryAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaundryAPIService.swift; sourceTree = "<group>"; };
+		CFABC0AB1FA299270057EAD1 /* Networking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		E0623E756F5204402A881AF9 /* Pods-LaundryTester.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LaundryTester.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LaundryTester/Pods-LaundryTester.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +45,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A17183F90A807B18A05DCF0A /* Pods_LaundryTester.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3CBAD5E60DFCEB4DB0423EFE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E0623E756F5204402A881AF9 /* Pods-LaundryTester.debug.xcconfig */,
+				014CC44F44CAD6E34AFC93BD /* Pods-LaundryTester.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C06F578C38ABCCB8C80F09A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45DD682F11A9F8662BC69842 /* Pods_LaundryTester.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CFA6015C1F9FA25500FE2675 = {
 			isa = PBXGroup;
 			children = (
 				CFA601671F9FA25500FE2675 /* LaundryTester */,
 				CFA601661F9FA25500FE2675 /* Products */,
+				3CBAD5E60DFCEB4DB0423EFE /* Pods */,
+				C06F578C38ABCCB8C80F09A7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +90,52 @@
 		CFA601671F9FA25500FE2675 /* LaundryTester */ = {
 			isa = PBXGroup;
 			children = (
+				CFA601871F9FBDE000FE2675 /* Service */,
+				CFA6017C1F9FA67E00FE2675 /* Controller */,
+				CFA6017B1F9FA67200FE2675 /* View */,
+				CFA6017A1F9FA66700FE2675 /* Model */,
 				CFA601681F9FA25500FE2675 /* AppDelegate.swift */,
-				CFA6016A1F9FA25500FE2675 /* ViewController.swift */,
 				CFA6016C1F9FA25500FE2675 /* Main.storyboard */,
 				CFA6016F1F9FA25500FE2675 /* Assets.xcassets */,
 				CFA601711F9FA25500FE2675 /* LaunchScreen.storyboard */,
 				CFA601741F9FA25500FE2675 /* Info.plist */,
 			);
 			path = LaundryTester;
+			sourceTree = "<group>";
+		};
+		CFA6017A1F9FA66700FE2675 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CFA601831F9FA76200FE2675 /* LaundryHall.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CFA6017B1F9FA67200FE2675 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CFA6017F1F9FA70600FE2675 /* InfoViewCell.swift */,
+				CFA601811F9FA72700FE2675 /* HallViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CFA6017C1F9FA67E00FE2675 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CFA6016A1F9FA25500FE2675 /* ViewController.swift */,
+				CFA6017D1F9FA6CB00FE2675 /* HallsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CFA601871F9FBDE000FE2675 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				CFABC0AB1FA299270057EAD1 /* Networking.swift */,
+				CFA601851F9FBDD700FE2675 /* LaundryAPIService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +145,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CFA601771F9FA25500FE2675 /* Build configuration list for PBXNativeTarget "LaundryTester" */;
 			buildPhases = (
+				C57F235F8B7DD440EF133955 /* [CP] Check Pods Manifest.lock */,
 				CFA601611F9FA25500FE2675 /* Sources */,
 				CFA601621F9FA25500FE2675 /* Frameworks */,
 				CFA601631F9FA25500FE2675 /* Resources */,
+				F4A49EA1C02C2342D641B515 /* [CP] Embed Pods Frameworks */,
+				18ECFD489F075B5793867079 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,11 +208,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		18ECFD489F075B5793867079 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LaundryTester/Pods-LaundryTester-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C57F235F8B7DD440EF133955 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LaundryTester-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4A49EA1C02C2342D641B515 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LaundryTester/Pods-LaundryTester-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LaundryTester/Pods-LaundryTester-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CFA601611F9FA25500FE2675 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFA601841F9FA76200FE2675 /* LaundryHall.swift in Sources */,
+				CFA601801F9FA70600FE2675 /* InfoViewCell.swift in Sources */,
+				CFA6017E1F9FA6CB00FE2675 /* HallsViewController.swift in Sources */,
+				CFABC0AC1FA299270057EAD1 /* Networking.swift in Sources */,
+				CFA601861F9FBDD700FE2675 /* LaundryAPIService.swift in Sources */,
+				CFA601821F9FA72700FE2675 /* HallViewCell.swift in Sources */,
 				CFA6016B1F9FA25500FE2675 /* ViewController.swift in Sources */,
 				CFA601691F9FA25500FE2675 /* AppDelegate.swift in Sources */,
 			);
@@ -272,6 +411,7 @@
 		};
 		CFA601781F9FA25500FE2675 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0623E756F5204402A881AF9 /* Pods-LaundryTester.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +427,7 @@
 		};
 		CFA601791F9FA25500FE2675 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 014CC44F44CAD6E34AFC93BD /* Pods-LaundryTester.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
