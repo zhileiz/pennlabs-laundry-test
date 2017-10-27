@@ -24,7 +24,7 @@ class InfoViewCell: UITableViewCell {
     }
     
     func setUpViewFor(hall: LaundryHall){
-        hallName.text = hall.getName()
+        hallName.text = hall.name
         washersStatus.text = hall.getWasherStatus()
         dryersStatus.text = hall.getDryerStatus()
         runningDryers.text = hall.getRunningDryers()
